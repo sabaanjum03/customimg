@@ -1,0 +1,33 @@
+*{  padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+height: 130px;
+width: 100px;
+border-radius: 10px;
+border: 2px solid black;
+margin-top: 10px; margin-left: 10px;
+display: flex;
+justify-content: center;
+overflow: hidden;
+align-items: center;
+
+
+}
+.card img{
+width: 90%;
+}
